@@ -9,6 +9,7 @@ function ProductDetail() {
   const [product, setProduct] = useState({});
   const [isLoading, setIsLoading] = useState(false)
   const {productId} = useParams()
+  console.log(useParams())
   useEffect(() => {
     setIsLoading(true)
     axios.get(`${productUrl}/products/${productId}`)

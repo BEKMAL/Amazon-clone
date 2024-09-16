@@ -22,6 +22,7 @@ function Routing() {
             <Route  path="/cart" element={<Cart />} />
             <Route path="/category/:categoryName" element={<Results />} />
             <Route path="/products/:productId" element={<ProductDetail/>} />
+            <Route path="/category/:categoryName/products/:productId" element={<ProductDetail/>} />
      
       
       </Route>
