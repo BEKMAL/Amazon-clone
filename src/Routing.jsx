@@ -14,16 +14,16 @@ function Routing() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<LayOut />} >
-            <Route path="/" element={<Landing />} />
-            <Route path="/auth" element={<Auth />} />
+      <Route path="/Amazon-client-deploy" element={<LayOut />} >
+            <Route path="/Amazon-client-deploy" element={<Landing />} />
+            {/* <Route path="/auth" element={<Auth />} />
             <Route  path="/payments" element={ <Payment />} />
             <Route  path="/orders" element={<Orders />} />
             <Route  path="/cart" element={<Cart />} />
             <Route path="/category/:categoryName" element={<Results />} />
             <Route path="/products/:productId" element={<ProductDetail/>} />
             <Route path="/category/:categoryName/products/:productId" element={<ProductDetail/>} />
-     
+      */}
       
       </Route>
      
