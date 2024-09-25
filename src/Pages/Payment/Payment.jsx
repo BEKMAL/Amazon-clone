@@ -13,7 +13,7 @@ import { Type } from "../../Utility/action.type";
 
 function Payment() {
   const [{ user, basket }, dispatch] = useContext(DataContext);
-  console.log(user);
+  // console.log(user);
 
   const totalItem = basket?.reduce((amount, item) => {
     return item.amount + amount;
@@ -105,8 +105,8 @@ function Payment() {
         <div className={classes.flex}>
           <h3>Review items and delivery</h3>
           <div>
-            {basket?.map((item) => (
-              <ProductCard product={item} flex={true} />
+            {basket?.map((item,i) => (
+              <ProductCard key={i} product={item} flex={true} />
             ))}
           </div>
         </div>
