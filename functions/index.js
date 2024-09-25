@@ -34,5 +34,5 @@ app.get("/", (req, res) => {
       });
     }
   });
-// app.listen(4050, console.log("Amazon Server Running ..."));
+// app.listen(4050, console.log("Amazon Server Running ...."));
 exports.api = onRequest(app);
