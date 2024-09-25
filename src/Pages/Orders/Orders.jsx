@@ -30,7 +30,7 @@ function Orders() {
   }, []);
 
   return (
-    <LayOut>
+    <>
       <section className={classes.container}>
         <div className={classes.orders__container}>
           <h2>Your Orders</h2>
@@ -53,7 +53,7 @@ function Orders() {
           </div>
         </div>
       </section>
-    </LayOut>
+    </>
   );
 }
 
