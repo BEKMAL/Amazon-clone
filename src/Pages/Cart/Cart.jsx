@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext,useEffect } from 'react'
 
 import { DataContext } from '../../Components/DataProvider/DataProvider';
 import ProductCard from '../../Components/Product/ProductCard'
@@ -26,6 +26,10 @@ const decrement =(id)=>{
     id
   })
 }
+// to scroll to top of page when component render
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
 
   return (
   
