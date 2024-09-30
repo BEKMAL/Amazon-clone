@@ -7,7 +7,7 @@ import Payment from "./Pages/Payment/Payment";
 import Orders from "./Pages/Orders/Orders";
 import Cart from "./Pages/Cart/Cart";
 import Results from "./Pages/Results/Results";
-import LayOut from './Components/Layout/LayOut';
+import LayOut from './Components/LayOut/LayOut';
 import ProductDetail from './Pages/ProductDetail/ProductDetail';
 import {Elements} from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
